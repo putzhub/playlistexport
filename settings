@@ -1,0 +1,5 @@
+lib=/media/pootz/Elements/Music/Library
+dst=/media/pootz/Briefcase/Music
+gen_lib=/home/pootz/.config/gmusicbrowser/gmbrc
+gen_dst=/home/pootz/Documentos/Playlists/Briefcase.m3u
+r=50

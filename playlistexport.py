@@ -5,13 +5,13 @@
 version = '0.3.3'
 
 #TODO:
-#-Autogenerate playlist based on ratings from gmusicbrowser config file
-#-Allow transfering a folder full of playlists
+#-Allow transfering a folder full of playlists automatically
 #-Allow option to transfer playlist with the songs
 #-Convert playlists from windows to unix, old library to new, etc.
 #-Split VERBOSE output and log output options so you can do one or other
-#-Make locale support
+#-Make locale support for other languages
 #-Add file size data to transfer stats (maybe)
+#-Fix bug: ' not accepted in interactive
 
 import os, shutil, sys, urllib.parse
 
