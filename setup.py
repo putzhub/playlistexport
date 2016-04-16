@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 
 from distutils.core import setup
+import playlistexport as pl
 
 def readme():
     with open('README.txt') as f:
         return f.read()
 
 setup(name='playlistexport',
-	version='0.3.1',
+	version=pl.version,
 	description='Export playlists while maintaining directory hierarchy',
 	long_description=readme(),
 	author='Pierce Putz',
@@ -26,6 +27,6 @@ setup(name='playlistexport',
 				'Operating System :: OS Independent',
 				'Programming Language :: Python :: 3',
 				'Topic :: System :: Archiving :: Backup'],
-	packages=['playlistexport'])
+	py_modules=['playlistexport'])
 				
 	

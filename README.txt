@@ -1,8 +1,10 @@
 Install:
-[Write this later]
+Run python3 setup.py install in the directory where the setup.py file is located.
+
+Alternatively you can just run the script by itself with python3 playlistexport.py just fine.
 
 PlaylistExport - Utility for transfering playlists
-Usage: [lib=/path/to/music/library] [dst=/path/to/destination] /play/list.m3u
+Usage: [var=/your/path/here] /play/list.m3u
 
 Description: Transfer a playlist while maintaining the file hierarchy
 found in the music library folder (or from wherever they are being
