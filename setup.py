@@ -8,7 +8,7 @@ def readme():
         return f.read()
 
 setup(name='playlistexport',
-	version=pl.version,
+	version=pl.VERSION,
 	description='Export playlists while maintaining directory hierarchy',
 	long_description=readme(),
 	author='HorrificBotnet',
@@ -27,6 +27,6 @@ setup(name='playlistexport',
 				'Operating System :: OS Independent',
 				'Programming Language :: Python :: 3',
 				'Topic :: System :: Archiving :: Backup'],
-	py_modules=['playlistexport'])
+	py_modules=['playlistexport','help_dialog'])
 				
 	

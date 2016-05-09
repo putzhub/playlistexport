@@ -1,0 +1,18 @@
++CHANGELOG
+
++++Version 0.3.5, 2016/4/23
+Changes:
+	* Created change log (whoops, about time)
+	* Made code optimizations
+	* report() no longer exports playlist_export.log, only error.log
+	* used .strip() to remove ' from path names in interactive path instead of .replace()
+	* Added ability to create destination path if it does not exist
+	* Moved default settings file path to ~/.config/playlistexport/config
+	* Included help dialog as module instead of text to load from file
+
+Bug fixes:
+	* Create settings file if it isn't found
+
+Known Bugs:
+	* File paths entered by drag n drop with a ' in the path still will 
+	  not work.
